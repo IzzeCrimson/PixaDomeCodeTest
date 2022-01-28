@@ -1,6 +1,6 @@
-WilliamIsacsson/.vsconfig
-WilliamIsacsson/Library
-WilliamIsacsson/Temp
+/.vsconfig
+/Library
+/Temp
 *.csproj
 *.meta
 *.controller
