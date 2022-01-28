@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8604391263876920712
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8604391263876920714}
+  - component: {fileID: 8604391263876920713}
+  m_Layer: 0
+  m_Name: RoomHolder
+  m_TagString: Rooms
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8604391263876920714
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8604391263876920712}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 28.566336, y: -15.901411, z: 5.414783}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8604391263876920713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8604391263876920712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33e4581152b440847bdc7904d04eb26b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  topRooms:
+  - {fileID: 4325367923952338872, guid: ae2778ce62562b946903d7ff3cacca35, type: 3}
+  - {fileID: 5952641731577201338, guid: 11e4e4402a11282448fd1500049c988e, type: 3}
+  - {fileID: 5480877259063181646, guid: c55aad451f8c4bf4d89330b40ce43423, type: 3}
+  rightRooms:
+  - {fileID: 7473126454469311329, guid: 42a22b850f0156b4a9b9b083fc38fec4, type: 3}
+  - {fileID: 3842779086894151041, guid: ec0ba26503376c141a8c482d8c5af057, type: 3}
+  - {fileID: 3198880995977928355, guid: 6491d05262c6f8b4c8a4bb0159ced9bc, type: 3}
+  botRooms:
+  - {fileID: 4325367923952338872, guid: ae2778ce62562b946903d7ff3cacca35, type: 3}
+  - {fileID: 3842779086894151041, guid: ec0ba26503376c141a8c482d8c5af057, type: 3}
+  - {fileID: 3370548036905174036, guid: 7856856910caf024981b5245b2a3bf3a, type: 3}
+  leftRooms:
+  - {fileID: 6476700996443895065, guid: e13ee54eb50bdf7469d0883caa8f2696, type: 3}
+  - {fileID: 7473126454469311329, guid: 42a22b850f0156b4a9b9b083fc38fec4, type: 3}
+  - {fileID: 5480877259063181646, guid: c55aad451f8c4bf4d89330b40ce43423, type: 3}
+  closedRoom: {fileID: 7811341858668182260, guid: 59096c1bea65b7a4daf0e21e8b9bd612,
+    type: 3}

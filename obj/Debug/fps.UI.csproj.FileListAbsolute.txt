@@ -1,0 +1,2 @@
+C:\Users\william.isacsson\UnityProject\WilliamIsacsson\obj\Debug\fps.UI.csproj.AssemblyReference.cache
+C:\Users\william.isacsson\UnityProject\WilliamIsacsson\obj\Debug\fps.UI.csproj.CoreCompileInputs.cache
